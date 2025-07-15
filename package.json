@@ -3,6 +3,7 @@
   "private": true,
   "sideEffects": false,
   "scripts": {
+  "prebuild": "chmod +x node_modules/.bin/vite",
     "build": "vite build",
     "dev": "vite dev",
     "typecheck": "tsc"
